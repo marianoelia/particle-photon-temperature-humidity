@@ -15,9 +15,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func startDeviceSetup(sender: AnyObject) {
+        var setupController = SparkSetupMainController()
+        self.presentViewController(setupController, animated: true, completion: nil)
     }
 
 

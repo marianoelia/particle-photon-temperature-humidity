@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF2CCCC61E89AB6F0036C11F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2CCCC51E89AB6F0036C11F /* AppDelegate.swift */; };
+		FF2CCCC81E89AB6F0036C11F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2CCCC71E89AB6F0036C11F /* ViewController.swift */; };
+		FF2CCCCB1E89AB6F0036C11F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF2CCCC91E89AB6F0036C11F /* Main.storyboard */; };
+		FF2CCCCD1E89AB6F0036C11F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF2CCCCC1E89AB6F0036C11F /* Assets.xcassets */; };
+		FF2CCCD01E89AB6F0036C11F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF2CCCCE1E89AB6F0036C11F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF2CCCC21E89AB6F0036C11F /* Temp And Humidity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Temp And Humidity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF2CCCC51E89AB6F0036C11F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF2CCCC71E89AB6F0036C11F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF2CCCCA1E89AB6F0036C11F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF2CCCCC1E89AB6F0036C11F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF2CCCCF1E89AB6F0036C11F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF2CCCD11E89AB6F0036C11F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF2CCCBF1E89AB6F0036C11F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF2CCCB91E89AB6F0036C11F = {
+			isa = PBXGroup;
+			children = (
+				FF2CCCC41E89AB6F0036C11F /* Temp And Humidity */,
+				FF2CCCC31E89AB6F0036C11F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF2CCCC31E89AB6F0036C11F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF2CCCC21E89AB6F0036C11F /* Temp And Humidity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF2CCCC41E89AB6F0036C11F /* Temp And Humidity */ = {
+			isa = PBXGroup;
+			children = (
+				FF2CCCC51E89AB6F0036C11F /* AppDelegate.swift */,
+				FF2CCCC71E89AB6F0036C11F /* ViewController.swift */,
+				FF2CCCC91E89AB6F0036C11F /* Main.storyboard */,
+				FF2CCCCC1E89AB6F0036C11F /* Assets.xcassets */,
+				FF2CCCCE1E89AB6F0036C11F /* LaunchScreen.storyboard */,
+				FF2CCCD11E89AB6F0036C11F /* Info.plist */,
+			);
+			path = "Temp And Humidity";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF2CCCC11E89AB6F0036C11F /* Temp And Humidity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF2CCCD41E89AB6F0036C11F /* Build configuration list for PBXNativeTarget "Temp And Humidity" */;
+			buildPhases = (
+				FF2CCCBE1E89AB6F0036C11F /* Sources */,
+				FF2CCCBF1E89AB6F0036C11F /* Frameworks */,
+				FF2CCCC01E89AB6F0036C11F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Temp And Humidity";
+			productName = "Temp And Humidity";
+			productReference = FF2CCCC21E89AB6F0036C11F /* Temp And Humidity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF2CCCBA1E89AB6F0036C11F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Mariano Elia";
+				TargetAttributes = {
+					FF2CCCC11E89AB6F0036C11F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7FA2EN8TMT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FF2CCCBD1E89AB6F0036C11F /* Build configuration list for PBXProject "Temp And Humidity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF2CCCB91E89AB6F0036C11F;
+			productRefGroup = FF2CCCC31E89AB6F0036C11F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF2CCCC11E89AB6F0036C11F /* Temp And Humidity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF2CCCC01E89AB6F0036C11F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2CCCD01E89AB6F0036C11F /* LaunchScreen.storyboard in Resources */,
+				FF2CCCCD1E89AB6F0036C11F /* Assets.xcassets in Resources */,
+				FF2CCCCB1E89AB6F0036C11F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF2CCCBE1E89AB6F0036C11F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2CCCC81E89AB6F0036C11F /* ViewController.swift in Sources */,
+				FF2CCCC61E89AB6F0036C11F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF2CCCC91E89AB6F0036C11F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF2CCCCA1E89AB6F0036C11F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF2CCCCE1E89AB6F0036C11F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF2CCCCF1E89AB6F0036C11F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF2CCCD21E89AB6F0036C11F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF2CCCD31E89AB6F0036C11F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF2CCCD51E89AB6F0036C11F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7FA2EN8TMT;
+				INFOPLIST_FILE = "Temp And Humidity/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrelia.Temp-And-Humidity";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FF2CCCD61E89AB6F0036C11F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7FA2EN8TMT;
+				INFOPLIST_FILE = "Temp And Humidity/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrelia.Temp-And-Humidity";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF2CCCBD1E89AB6F0036C11F /* Build configuration list for PBXProject "Temp And Humidity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF2CCCD21E89AB6F0036C11F /* Debug */,
+				FF2CCCD31E89AB6F0036C11F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF2CCCD41E89AB6F0036C11F /* Build configuration list for PBXNativeTarget "Temp And Humidity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF2CCCD51E89AB6F0036C11F /* Debug */,
+				FF2CCCD61E89AB6F0036C11F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF2CCCBA1E89AB6F0036C11F /* Project object */;
+}
